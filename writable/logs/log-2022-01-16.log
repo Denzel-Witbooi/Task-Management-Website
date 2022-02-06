@@ -1,0 +1,44 @@
+CRITICAL - 2022-01-16 08:37:52 --> Invalid file: layout/default.php
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default....')
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/default', Array, true)
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Tasks/index', Array, true)
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Tasks.php(10): view('Tasks/index')
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Tasks->index()
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-16 08:38:55 --> Invalid file: layout/default.php
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default....')
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/default', Array, true)
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Tasks/index', Array, true)
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Tasks.php(9): view('Tasks/index')
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Tasks->index()
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-16 08:39:05 --> Invalid file: layout/default.php
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/default....')
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/default', Array, true)
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Tasks/index', Array, true)
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Tasks.php(9): view('Tasks/index')
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Tasks->index()
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-16 09:52:32 --> syntax error, unexpected '$migrate' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Migrate')
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Migrate')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-16 09:54:15 --> syntax error, unexpected 'try' (T_TRY)
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Migrate')
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Migrate')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

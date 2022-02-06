@@ -1,0 +1,10 @@
+CRITICAL - 2022-01-20 05:48:42 --> Allowed fields must be specified for model: App\Models\TaskModel
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Task...')
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Tasks.php(62): CodeIgniter\Model->insert(Array)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Tasks->create()
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

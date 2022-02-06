@@ -1,0 +1,115 @@
+CRITICAL - 2022-02-03 09:06:32 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Router\Router.php(518): include_once()
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/users')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('admin/users')
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 09:20:28 --> Undefined variable: pager
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Views\Admin\Users\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ALPHA\\...', 41, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\ALPHA\\...')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(23): view('Admin/Users/ind...', Array)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->index()
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 09:21:57 --> Undefined variable: pager
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Views\Admin\Users\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ALPHA\\...', 41, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\ALPHA\\...')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(23): view('Admin/Users/ind...', Array)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->index()
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 09:28:14 --> Undefined property: App\Controllers\Admin\Users::$current_user
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ALPHA\\...', 47, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(29): App\Controllers\Admin\Users->getTaskOr404('1')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->show('1')
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 09:31:49 --> Undefined property: App\Controllers\Admin\Users::$mode
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ALPHA\\...', 37, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(29): App\Controllers\Admin\Users->getUserOr404('1')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->show('1')
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 09:32:37 --> Undefined property: App\Controllers\Admin\Users::$mode
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ALPHA\\...', 37, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(29): App\Controllers\Admin\Users->getUserOr404('1')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->show('1')
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 09:33:14 --> Undefined variable: task
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Views\Admin\Users\show.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ALPHA\\...', 12, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\ALPHA\\...')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Users/sho...', Array, true)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(31): view('Admin/Users/sho...', Array)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->show('1')
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 10:23:25 --> Undefined property: App\Controllers\Admin\Users::$current_user
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\ALPHA\\...', 51, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->create()
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-03 10:37:40 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-03 10:37:40 --> Unknown column 'password' in 'field list'
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('4', Object(App\Entities\User))
+#8 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(91): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->update('4')
+#10 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#11 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-03 10:39:01 --> Unknown column 'password' in 'field list'
+CRITICAL - 2022-02-03 10:39:01 --> Unknown column 'password' in 'field list'
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user` S...', 0)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('4', Object(App\Entities\User))
+#8 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(90): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->update('4')
+#10 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#11 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-03 11:42:07 --> Undefined variable: task
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Views\Admin\Users\delete.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ALPHA\\...', 11, Array)
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\ALPHA\\...')
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Admin/Users/del...', Array, true)
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Admin\Users.php(128): view('Admin/Users/del...', Array)
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Admin\Users->delete('4')
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
