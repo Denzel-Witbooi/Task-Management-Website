@@ -29,6 +29,7 @@ class Filters extends BaseConfig
         'login'         => LoginFilter::class,
         'guest'         => GuestFilter::class,
         'admin'         => AdminFilter::class,
+
     ];
 
     /**
@@ -81,6 +82,11 @@ class Filters extends BaseConfig
         'admin' => [ 
             'before' => [ 
                 'admin/*'
+            ]
+        ],  
+        'guest' => [ 
+            'before' => [ 
+                'password/*'
             ]
         ]
     ];
