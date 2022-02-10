@@ -1,0 +1,6 @@
+CRITICAL - 2022-02-10 06:39:16 --> Too few arguments to function App\Controllers\Signup::activate(), 0 passed in C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Signup->activate()
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signup))
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

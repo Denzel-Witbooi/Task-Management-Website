@@ -27,4 +27,30 @@ class User extends \CodeIgniter\Entity\Entity
         //set to null as we no longer need it
         $this->activation_hash = null;
     }
+<<<<<<< Updated upstream
+=======
+
+    public function startPasswordReset()
+    {
+        //generate a random token by creating an object
+        //of the token class
+        $token = new Token; 
+
+        $this->reset_token = $token->getValue(); 
+
+        $this->reset_hash = $token->getHash();
+
+        //get current date and time plus 2hours(7200 seconds)
+        $this->reset_expires_at = date('Y-m-d H:i:s', time() + 7200);
+    }
+
+    public function completePasswordReset()
+    {
+        $this->reset_hash = null; 
+        $this->reset_expires_at = null;
+    }
+
+
+
+>>>>>>> Stashed changes
 }
