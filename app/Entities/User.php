@@ -18,7 +18,6 @@ class User extends \CodeIgniter\Entity\Entity
 
         //assigning hash property to the current user object
         $this->activation_hash = hash_hmac('sha256', $this->token, $_ENV['HASH_SECRET_KEY']);
-        
     }
 
     public function activate()
