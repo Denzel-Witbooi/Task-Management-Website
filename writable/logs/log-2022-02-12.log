@@ -1,0 +1,10 @@
+CRITICAL - 2022-02-12 09:41:46 --> Invalid file: Password/forgot.php
+#0 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Password/forgot...')
+#1 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Password/forgot', Array, true)
+#2 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\app\Controllers\Password.php(9): view('Password/forgot')
+#3 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Password->forgot()
+#4 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+#5 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ALPHA\Dropbox\My PC (DESKTOP-5HJ52K5)\Documents\PhpProjects\taskapp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-12 10:37:42 --> Duplicate column name 'reset_hash'
