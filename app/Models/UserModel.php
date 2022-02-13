@@ -11,7 +11,10 @@ class UserModel extends \CodeIgniter\Model
     //Protects us from a malicious user who could manipulate the
     //form data when signing up. 
     //And signup as an admin
-    protected $allowedFields = ['name', 'email', 'password', 'activation_hash']; 
+    //Not adding the token property as it is not a column
+    //in the database
+    protected $allowedFields = ['name', 'email', 'password', 'activation_hash', 
+'reset_hash', 'reset_expires_at']; 
     
     protected $returnType = 'App\Entities\User';
 
@@ -98,6 +101,34 @@ class UserModel extends \CodeIgniter\Model
             //and we don't want to add it as someone could set this to true 
             //if they manipulate the form when creating an account
         }
+    }
+    //Lecture 102
+    //Method to find the user with the token argument
+    public function getUserForPasswordReset($token)
+    {
+        //As with account activation we are storing the token 
+        //hash in the database
+        //so in order to query the the database 
+        //That matches the token argument we 
+        //need to calculate its hash
+        $token = new Token($token);
+
+        $token_hash = $token->getHash();
+
+        $user = $this->where('reset_hash', $token_hash)
+             ->first();
+
+        if ($user) { 
+            //if the reset expires at column is less then the current
+            //date and time the token is expired
+            if ($user->reset_expires_at < date('Y-m-d H:i:s')) {
+                
+                $user = null;
+
+            }
+        }
+
+        return $user;
     }
     
 }

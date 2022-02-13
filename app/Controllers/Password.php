@@ -9,10 +9,14 @@ class Password extends BaseController
         return view('Password/forgot');
     }
 
+    #method to find matching user email 
+    #to gen reset token 
     public function processForgot()
     {
         $model = new \App\Models\UserModel;
 
+        //This will return a user entity model or null if the 
+        // user is not found
         $user = $model->findByEmail($this->request->getPost('email'));
 
         if ($user && $user->is_active) {
@@ -41,6 +45,8 @@ class Password extends BaseController
         return view('Password/reset_sent');
     }
 
+    //lecture 102
+    //method to reset the password
     public function reset($token)
     {
         $model = new \App\Models\UserModel;
@@ -52,6 +58,8 @@ class Password extends BaseController
             return view('Password/reset', [ 
                 'token' => $token
             ]);
+            //else if the user isn't found or the
+            //token has expired
         } else { 
 
             return redirect()->to('/password/forgot')
@@ -106,7 +114,8 @@ class Password extends BaseController
         $email->setTo($user->email);
         
         $email->setSubject('Password reset');
-
+        //when we render the view we'll pass the token value
+        //as well
         $message = view('Password/reset_email', [ 
             'token' => $user->reset_token
         ]);
