@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1644960623;_ci_previous_url|s:37:"http://taskapp.localhost/profile/edit";user_id|s:1:"5";can_edit_profile_until|i:1644961023;warning|s:17:"Nothing to update";__ci_vars|a:2:{s:7:"warning";s:3:"old";s:13:"_ci_old_input";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:4:"name";s:6:"Franky";s:5:"email";s:15:"Frank@gmail.com";}}
