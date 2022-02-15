@@ -75,7 +75,8 @@ class Filters extends BaseConfig
             //Array elements
             'before' => [ 
                 'tasks(/*)?', 
-                'admin/*' 
+                'admin/*', 
+                'profile/*' 
             ] 
         ],
         'admin' => [ 

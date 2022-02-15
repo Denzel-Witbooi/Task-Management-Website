@@ -43,4 +43,10 @@ class User extends \CodeIgniter\Entity\Entity
         #expiry current date and time + (2hrs-7200s)
         $this->reset_expires_at = date('Y-m-d H:i:s', time() + 7200);
     }
+
+    public function completePasswordReset()
+    {
+        $this->reset_hash = null; 
+        $this->reset_expires_at = null;
+    }
 }

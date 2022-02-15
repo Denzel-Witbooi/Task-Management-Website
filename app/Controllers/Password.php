@@ -88,6 +88,7 @@ class Password extends BaseController
                 
                 $user->completePasswordReset();
 
+                //save the user again using the model
                 $model->save($user);
 
                 return redirect()->to('/password/resetsuccess');
