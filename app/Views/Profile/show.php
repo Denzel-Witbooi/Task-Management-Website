@@ -7,7 +7,15 @@
 <?= $this->section('content') ?>
 
     <h1>Profile</h1> 
+<?php if ($user->profile_image): ?>
+    <img src="<?= site_url('/profile/image')?>" width="200" height="200" alt="profile image">
 
+    <a href="<?= site_url('/profileimage/delete')?>">Delete profile image</a>
+<?php else: ?>
+    
+    <img src="<?= site_url('/images/blank_profile.png')?>" width="200" height="200" alt="profile image">
+
+<?php endif; ?>
     <!-- Use description list element to display the  
     objects attributes -->
     <!-- And escape the name and email as it is untrusted content -->
@@ -21,5 +29,8 @@
 
     <a href="<?= site_url("/profile/edit")?>"> Edit </a>
 
-    <a href="<?= site_url("/profile/editpassword")?>">Change password</a>
+    <a href="<?= site_url("/profile/editpassword")?>">Change password</a> 
+
+    <a href="<?= site_url("/profileimage/edit")?>">Change Profile image</a>
+
 <?= $this->endSection() ?>
